@@ -70,3 +70,9 @@ I evaluated a diverse range of regression models:
 - Pandas
 - NumPy
 - Matplotlib/Seaborn (for visualization)
+
+---
+Reference:
+* https://www.kaggle.com/code/ondrejmajor/rohlik-orders-prediction-xgboost-w-result-plots#Load-models-and-predict-the-test-dataset
+* https://www.kaggle.com/code/rabieelkharoua/rohlik-competition-8-ready-to-use-scripts
+
