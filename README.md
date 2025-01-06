@@ -10,6 +10,8 @@ https://www.kaggle.com/competitions/rohlik-orders-forecasting-challenge/overview
 
 This project addresses a critical challenge in the e-grocery industry: accurately predicting order volumes for Rohlik Group. The goal is to forecast the number of grocery delivery orders for selected warehouses over a 60-day period.
 
+I've revisited this challenge many times to gain a better understanding of forecasting problems, and `simple_pipeline_explore.ipynb` was my initial attempt. See `rohlik-orders-forecasting.ipynb` for the main code.
+
 ### Business Goal
 
 The primary business objective is to enhance operational efficiency and sustainability in Rohlik's e-grocery services. Accurate order forecasts are crucial for:
@@ -60,6 +62,8 @@ I evaluated a diverse range of regression models:
 - AdaBoostRegressor
 - KNeighborsRegressor
 
+The final solution incorporates a single LGBMRegressor with hyper-parameter tuning.
+
 ## Technologies Used
 
 - Python
@@ -72,7 +76,9 @@ I evaluated a diverse range of regression models:
 - Matplotlib/Seaborn (for visualization)
 
 ---
-Reference:
+Reference: thanks to these kind sharing on Kaggle.
 * https://www.kaggle.com/code/ondrejmajor/rohlik-orders-prediction-xgboost-w-result-plots#Load-models-and-predict-the-test-dataset
 * https://www.kaggle.com/code/rabieelkharoua/rohlik-competition-8-ready-to-use-scripts
+* https://www.kaggle.com/code/leonhardhochfilzer/3rd-place-solution-rohlik-orders-forecasting
+* https://www.kaggle.com/competitions/rohlik-orders-forecasting-challenge/discussion/530252
 
